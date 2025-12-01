@@ -1,0 +1,50 @@
+body{
+  background-color: black;
+  color: white;
+}
+.card{
+  margin: 10px 10px 0px 10px;
+}
+h1{
+  color: white;
+  text-align: center;
+}
+.container{
+  margin-top: 4%;
+}
+img:hover{
+cursor: pointer;
+}
+nav{
+  background-color: black !important;
+}
+.navbar-brand{
+  color: white;
+}
+.input-bg{
+  background-color: black;
+ 
+}
+.input-bg::placeholder {
+  color: gray; /* placeholder text color */
+  opacity: 1;
+}
+.input-bg:focus {
+  background-color: black !important; 
+  color: white;
+  border-color: #666; 
+  box-shadow: none; 
+  outline: none; 
+}
+.nav-item-link{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight:700;
+  padding: 10px;
+}
+.form-control:focus{
+  color: rgb(2, 2, 2) !important;
+  background-color: white !important;
+
+}
