@@ -19,7 +19,7 @@ const Favrot = () => {
   return (
     <>
     <div className="container">
-      <h1 style={{textAlign:"center",marginTop:"500px"}}>Favorite Songs: {count}</h1>
+      <h1 style={{textAlign:"center",marginTop:"80px"}}>Favorite Songs: {count}</h1>
       <div className="row">
           <div className="row">
             {data.map((ele,index)=>{
